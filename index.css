@@ -1,0 +1,407 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+
+
+
+body{
+  background-color: #1D1D1D;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main{
+  display: flex;
+
+}
+
+#about-anchor {
+  margin-bottom: 300px;
+  height: 20px;
+}
+
+#skills-anchor {
+  margin-top: 800px;
+  height: 20px;
+}
+
+#contact-anchor {
+  height: 20px;
+}
+
+
+/* CSS FOR .RIGHT BLOCK */
+
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90%;
+  margin-left: 253px;
+}
+
+.about-block{
+  display: flex;
+}
+
+.about-text-bar{
+  width:50%;
+}
+
+.about-animation-script{
+  width:50%;
+}
+
+.h1-text{
+  font-size: 60px;
+  color: #08FDD8;
+  font-family: "Della Respira", serif;
+  font-weight: bold;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  user-select: none;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.info-text{
+  font-size: 18px;
+  font: 16px 'Open Sans', sans-rerif;
+  letter-spacing: .3px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.contact-text,
+.info-text {
+  line-height: 24px;
+}
+
+#telegrammLink{
+  text-decoration: none;
+  color: #08FDD8
+}
+
+#telegrammLink:hover{
+  opacity: .3;
+  transition: .3s ease-out;
+}
+
+#telegrammLink:visited{
+  color:#08FDD8;
+}
+
+
+
+/* my skills */
+
+.myskills-block {
+  display: flex;
+  margin-top: 400px;
+}
+
+.experience-text-bar {
+  width: 50%;
+}
+
+.skills-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.charts {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.work-zone {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.work1, .work2{
+  width:50%;
+  background-color: #2A2A2A;
+  margin-right: 40px;
+  padding: 20px 30px 20px 20px ;
+}
+
+
+
+.footer{
+  border: .5px solid #83a09c;
+  width: 550px;
+  opacity: .3;
+}
+
+.progressbarFront-end,
+.progressbarBack-end,
+.progressbarReactJS,
+.progressbarAngularc {
+  margin-bottom: 25px;
+}
+
+.progressbarFront-end{
+  border: 1px solid #08FDD8;
+  background-color: #08FDD8;
+  width: 7%;
+}
+
+.progressbarBack-end {
+  border: 1px solid #fd3908;
+  background-color: #fd3908;
+  width: 15%;
+}
+
+.progressbarReactJS{
+  border: 1px solid #b705fd;
+  background-color: #b705fd;
+  width: 3%;
+}
+
+.progressbarAngular{
+  border: 1px solid #fdd808;
+  background-color: #fdd808;
+  width: 1%;
+}
+
+.h3-text {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Della Respira", serif;
+  user-select: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.h5-text{
+  font-size: 14px;
+  color: #ABABAB;
+  padding-top: 5px;
+  text-align: justify;
+}
+
+/* Contact me block */
+
+.contact-block {
+  display: flex;
+  margin-top: 350px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.contact-form{
+  width: 50%;
+}
+
+.map-bar{
+  width: 50%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.contact-text{
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Della Respira", serif;
+  user-select: none;
+  margin-bottom: 10px;
+}
+
+.contactHeaderText {
+  font-size: 60px;
+  color: #08FDD8;
+  font-family: "Della Respira", serif;
+  font-weight: bold;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  user-select: none;
+  margin-bottom: 65px;
+}
+
+.nameWithEmailBlock{
+  display: flex;
+  margin-top: 20px;
+}
+
+#name,
+#email  {
+  width: 50%;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color:#2B2B2B;
+}
+
+textarea,
+input {
+  background-color: #2B2B2B;
+  border: 1px solid #1D1D1D;
+  margin: 10px 10px 20px 0;
+  color: #757575;
+  min-height: 3em;
+  font-size: 16px;
+  padding: 0px 0 0 15px;
+  outline: none;
+  transition: .9s ease-out;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #08FDD8;
+}
+
+textarea{
+  padding-top: 20px;
+  resize:vertical;
+}
+
+input[type='submit'] {
+  background-color: #1D1D1D;
+  border: 1px solid #08FDD8;
+  color: #08FDD8;
+  width: 250px;
+  padding: unset;
+  background: linear-gradient(to left, #1D1D1D 50%, #08FDD8 50%) right;
+  background-size: 200%;
+  transition: .3s ease-out;
+}
+
+#contactSubmit {
+  align-self: flex-end;
+  letter-spacing: .2rem;
+
+}
+
+#contactSubmit:hover {
+  color: #000000;
+  background-position: left;
+}
+
+#mapBar{
+  margin-top: 30px;
+  opacity: .8;
+}
+
+
+/* CSS FOR .LEFT BLOCK */
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 250px;
+  position: fixed;
+  height: 100%;
+
+  background-color: #181818;
+}
+
+.somenames{
+  text-align: center;
+}
+
+a.logo{
+  background-color: #000000;
+}
+
+a.logo:visited{
+  color: #ffffff;
+}
+
+.spanTextUnderLogo{
+
+  background-color: #000000;
+  width: 100%;
+  padding: 0px 62.5px 2px;
+  font: 16px 'Open Sans', sans-rerif;
+  letter-spacing: 1px;
+
+}
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation a{
+  color: #90857A;
+  text-decoration: none;
+  text-align: center;
+  line-height: 5rem;
+  font: 16px 'Open Sans', sans-rerif;
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #282828;
+}
+
+.navigation a:hover{
+  color: #08FDD8;
+  transition: color .8s;
+}
+
+.links{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a .octicon-mark-github{
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+a .octicon-mark-github:hover {
+  stroke: #08FDD8;
+  fill: #08FDD8;
+  transition: color .3s;
+}
+
+.linkedin:hover, .cwars:hover{
+  color: #08FDD8;
+}
+
+.linkedin, .cwars{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.cwars{
+  padding: 7px 125px 12px 0;
+  background-image: url('https://www.codewars.com/users/AleksandrFrolov/badges/micro');
+  background-repeat: no-repeat;
+}
+
+.cwars:hover{
+  box-shadow: 0px 0px 16px 1px #08FDD8;
+  transition: box-shadow .4s;
+}
+
+.linkedin{
+  font-size: 30px;
+  font-weight: 900;
+  transition: color .3s;
+}
